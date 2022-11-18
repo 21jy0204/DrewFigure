@@ -27,7 +27,8 @@ public class DrawFigure {
 		EZ.addPolygon(xp, yp, Color.MAGENTA, false);
 
 		//繧､繝｡繝ｼ繧ｸ繧呈緒逕ｻ (繝輔ぃ繧､繝ｫ蜷�, 荳ｭ蠢�蠎ｧ讓凅, 荳ｭ蠢�蠎ｧ讓凉)
-		EZ.addImage("src/ezsample01/cat.jpg", 300,300);
+		EZImage cat = EZ.addImage("src/ezsample01/cat.jpg", 300,300);
+		cat.turnLeft(30);
 
 		//譁�蟄励ｒ謠冗判縺吶ｋ(譁�蟄怜�励�ｮ荳ｭ蠢�蠎ｧ讓凅, 譁�蟄怜�励�ｮ荳ｭ蠢�蠎ｧ讓凉, 譁�蟄怜�暦ｼ瑚牡 [,繧ｵ繧､繧ｺ] )
 		EZ.addText(40,20, "Hello World", Color.BLACK, 12);
