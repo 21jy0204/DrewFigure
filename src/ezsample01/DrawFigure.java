@@ -12,7 +12,8 @@ public class DrawFigure {
 		EZ.initialize(400, 400); // 逕ｻ髱｢縺ｮ螟ｧ縺阪＆繧呈ｱｺ繧√ｋ�ｼ�
 
 		//閭梧勹濶ｲ繧定ｨｭ螳�
-		EZ.setBackgroundColor(Color.LIGHT_GRAY);
+		EZ.setBackgroundColor(Color.YELLOW);
+
 
 		//邱壹ｒ謠上￥(蟋狗せx, 蟋狗せy, 邨らせx, 邨らせy, 濶ｲ, 邱壼ｹ�)
 		EZ.addLine(40,0, 40,50, Color.RED, 1);
